@@ -1,0 +1,797 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+:root {font-size: 62.5%;}
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+body {
+      font-family: helvetica;
+      font-size: 1.75rem;
+}
+
+div {
+      height: 100vh;
+      position: relative;
+
+}
+.paneel1 {
+      background-color: white;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.jaar{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+}
+
+.archive{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+}
+
+.link1, .link2, .link3, .link4, .link5 {
+      position: absolute;
+      left: 43vw;
+      bottom: 3vh;
+      width: 14vw;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      animation-name: blink;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+      0% {
+
+      }
+      50% {
+            transform: translate(0,.7rem);
+      }
+      100% {
+
+      }
+}
+
+/*PANEEL1*/
+.foto{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-image: url(1.jpg);
+  width: 40vw;
+  height: 40vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  top: 5rem;
+
+}
+
+.jaar{
+  position: absolute;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 10vw;
+  right: 1rem;
+  left: 50vw;
+  top: 5rem;
+}
+
+.archive{
+  position: absolute;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3vw;
+  left: 20vw;
+  text-align: justify;
+}
+
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+span {
+  color: #D42531;
+}
+
+
+.lijnéén{
+  position: absolute;
+  background-color: #D42531;
+  width: 4px;
+  height: 60%;
+  z-index: 20;
+  top: 0rem;
+  right: 5rem;
+  animation-name: tonen;
+  animation-duration: 5s;
+  transform: scaleY(0);
+  transform-origin: top;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tonen {
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+.lijntwee{
+  position: absolute;
+  background-color: #D42531;
+  width: 4px;
+  height: 10%;
+  z-index: 20;
+  bottom: 0rem;
+  right: 5rem;
+  animation-name: tonenonder;
+  animation-duration: 5s;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tonenonder {
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+.fa-facebook-f{
+  position: absolute;
+  color: #D42531;
+  font-size: 3rem;
+  right: 4.5rem;
+  bottom: 30rem;
+}
+
+.fa-instagram{
+  position: absolute;
+  color: #D42531;
+  font-size: 3.3rem;
+  right: 3.9rem;
+  bottom: 24rem;
+}
+
+.fa-twitter{
+  position: absolute;
+  color: #D42531;
+  font-size: 3.3rem;
+  right: 3.7rem;
+  bottom: 18rem;
+}
+
+.fa-dribbble{
+  position: absolute;
+  color: #D42531;
+  font-size: 3.3rem;
+  right: 3.7rem;
+  bottom: 12rem;
+}
+
+
+
+/*PANEEL2*/
+
+.paneel2 {
+    background-color: #D42531;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lijndrie{
+  position: absolute;
+  background-color: white;
+  width: 4px;
+  height: 60%;
+  z-index: 20;
+  top: 0rem;
+  right: 5rem;
+  animation-name: tonen;
+  animation-duration: 5s;
+  transform: scaleY(0);
+  transform-origin: top;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tonen {
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+.lijnvier{
+  position: absolute;
+  background-color: white;
+  width: 4px;
+  height: 10%;
+  z-index: 20;
+  bottom: 0rem;
+  right: 5rem;
+  animation-name: tonenonder;
+  animation-duration: 5s;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tonenonder {
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+#fwit{
+  position: absolute;
+  color: white;
+  font-size: 3rem;
+  right: 4.5rem;
+  bottom: 30rem;
+}
+
+#iwit{
+  position: absolute;
+  color: white;
+  font-size: 3.3rem;
+  right: 3.9rem;
+  bottom: 24rem;
+}
+
+#twit{
+  position: absolute;
+  color: white;
+  font-size: 3.3rem;
+  right: 3.7rem;
+  bottom: 18rem;
+}
+
+#dwit{
+  position: absolute;
+  color: white;
+  font-size: 3.3rem;
+  right: 3.7rem;
+  bottom: 12rem;
+}
+
+#chevronwhite{
+  color: white;
+}
+
+h3{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 7.5vw;
+  font-weight: bolder;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  padding-top: 5rem;
+  padding-left: 2rem;
+}
+
+
+/*PANEEL3*/
+
+.paneel3 {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+  height: 45vw;
+  position: absolute;
+  top: 8.5rem;
+  left: 15vw;
+
+}
+
+button{
+  border: none;
+  outline: none;
+}
+
+.button1{
+  position: relative;
+  left: 10vw;
+  top: 30vw;
+  top: -19.5vw;
+  font-size: 2vw;
+}
+
+.button2{
+  position: relative;
+  left: 49vw;
+  bottom: 20vw;
+  font-size: 2vw;
+}
+
+/*PANEEL4*/
+
+.paneel4 {
+    background-color: #D42531;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  top: 5rem;
+  left: 15vw;
+  position: absolute;
+}
+
+.interview{
+  font-size: 1.4rem;
+  position: absolute;
+  top: 8.5rem;
+  left: 15vw;
+  width: 60vw;
+  text-align: justify;
+}
+
+h6 {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 8rem;
+  left: 15vw;
+  width: 60vw;
+  text-align: justify;
+  font-weight: 300;
+}
+
+h7 {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 22rem;
+  left: 15vw;
+  width: 60vw;
+  text-align: justify;
+  font-weight: 300;
+}
+
+h8 {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 46rem;
+  left: 15vw;
+  width: 60vw;
+  text-align: justify;
+  font-weight: 300;
+}
+
+h9 {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 63rem;
+  left: 15vw;
+  width: 60vw;
+  text-align: justify;
+  font-weight: 300;
+}
+
+h10 {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 67rem;
+  left: 15vw;
+  width: 60vw;
+  text-align: justify;
+  font-weight: 300;
+}
+
+h11 {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 77rem;
+  left: 15vw;
+  width: 60vw;
+  text-align: justify;
+  font-weight: 300;
+}
+
+h12 {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 87rem;
+  left: 15vw;
+  width: 60vw;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.quote{
+  color: black;
+  font-weight: 600;
+}
+
+/*PANEEL5*/
+
+.paneel5 {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mywork{
+  width: 30vw;
+  text-align: justify;
+  position: absolute;
+  top: 40vh;
+  right: 10vw;
+}
+
+.dropcap{
+  float: left;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 60px;
+  margin-top: -2.3rem;
+  padding-top: -4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  margin-bottom: -1rem;
+}
+
+.dropcap2{
+  color: black;
+  float: left;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 60px;
+  margin-top: -2.3rem;
+  padding-top: -4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  margin-bottom: -1rem;
+}
+
+form{
+  font-family: 'Ubuntu', sans-serif;
+  position: absolute;
+  left: 20vw;
+  top: 20vh;
+}
+
+input{
+  margin-bottom: 2rem;
+}
+
+select{
+  margin-bottom: 2rem;
+}
+
+textarea{
+  margin-top: 1rem;
+  width: 50vw;
+}
+
+#firstname{
+  border: 0px solid;
+  border-bottom: 1px solid #D42531;
+}
+
+.select{
+  border: 1px solid grey;
+  height: 3rem;
+  width: 15rem;
+  border-radius: 50px;
+}
+
+input:focus{
+  outline: none;
+}
+
+textarea:focus{
+  outline: none;
+}
+
+select:focus{
+  outline: none;
+}
+
+input,
+select,
+textarea {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 300;
+	padding: 16px;
+}
+
+.submit{
+  margin-top: 2rem;
+}
+
+.submit:hover{
+  color: white;
+  font-weight: 400;
+  background-color: #D42531
+
+}
+
+@supports (grid-area: auto) {
+	/* we weten hier: ondersteuning voor grid-layout */
+
+	@media (max-width: 35rem) {
+		/* een voorbeeld van een media query: hier schrijf je de css die wordt uitgevoerd indien het scherm minstens 800px breedte biedt */
+
+
+    h4{
+      font-size: 2rem;
+    }
+
+    .foto{
+      width: 90vw;
+      height: 90vw;
+      top: 12rem;
+    }
+
+    .jaar{
+      top: 15rem;
+      font-size: 15vw;
+      right: 10vw;
+      font-weight:
+    }
+
+    .archive{
+      left: 1.5rem;
+      top: 119vw;
+      font-size: 7vw;
+    }
+
+    .mywork{
+      left: 10vw;
+      width: 65vw;
+      top: 60vh;
+    }
+
+    img{
+      top: 25rem;
+      left: 25vw;
+    }
+
+    .button1{
+      top: 10rem;
+      left: 20vw;
+    }
+
+    .button2{
+      top: 10rem;
+      left: 55vw;
+    }
+
+	}
+
+  @media (min-width: 35rem) {
+		/* een voorbeeld van een media query: hier schrijf je de css die wordt uitgevoerd indien het scherm minstens 800px breedte biedt */
+
+    .foto{
+      width: 55rem;
+      height: 55rem;
+      top: 12rem;
+      left: 5vw;
+    }
+
+    .jaar{
+      font-family: 'Ubuntu', sans-serif;
+      top: 15rem;
+      font-size: 8.5rem;
+      right: 10vw;
+    }
+
+    .archive{
+      top:70rem;
+      font-size: 4rem;
+      left: 15vw;
+    }
+
+    .mywork{
+      left: 10vw;
+      width: 60vw;
+      top: 60vh;
+    }
+
+    img{
+      top: 15rem;
+      left: 30vw;
+    }
+
+    .button1{
+      top: -2.5rem;
+      left: 25vw;
+    }
+
+    .button2{
+      top: -2.5rem;
+      left: 60vw;
+    }
+
+    .mywork{
+      width: 70vw;
+      top: 55vh;
+    }
+
+	}
+
+  @media (min-width: 45rem) {
+    .mywork{
+      width: 70vw;
+      top: 60vh;
+    }
+
+    h4{
+      font-size: 2rem;
+    }
+
+  }
+
+  @media (min-width: 35rem) {
+    .mywork{
+      width: 70vw;
+      top: 60vh;
+    }
+
+    h4{
+      font-size: 2rem;
+    }
+
+  }
+
+  @media (min-width: 55rem) {
+    .mywork{
+      width: 70vw;
+      top: 70vh;
+    }
+
+  }
+
+  @media (min-width: 65rem) {
+    .mywork{
+      width: 75vw;
+      top: 75vh;
+    }
+
+  }
+
+  @media (min-width: 70rem) {
+    .mywork{
+      width: 75vw;
+      top: 80vh;
+    }
+
+  }
+@media (min-width: 80rem) {
+  /* een voorbeeld van een media query: hier schrijf je de css die wordt uitgevoerd indien het scherm minstens 800px breedte biedt */
+
+  .foto{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-image: url(1.jpg);
+    width: 45vw;
+    height: 45vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 5rem;
+
+  }
+
+  .jaar{
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10vw;
+    right: 1rem;
+    left: 50vw;
+    top: 5rem;
+  }
+
+  .archive{
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vw;
+    left: 20vw;
+    text-align: justify;
+  }
+
+
+  img{
+    height: 45vw;
+    position: absolute;
+    top: 8.5rem;
+    left: 15vw;
+
+  }
+
+  button{
+    border: none;
+    outline: none;
+  }
+
+  .button1{
+    position: relative;
+    left: 10vw;
+    top: 30vw;
+    top: -19.5vw;
+    font-size: 2vw;
+  }
+
+  .button2{
+    position: relative;
+    left: 49vw;
+    top: -20vw;
+    font-size: 2vw;
+  }
+
+
+  .mywork{
+    width: 30vw;
+    text-align: justify;
+    position: absolute;
+    top: 40vh;
+    left: 60vw;
+  }
+
+  h4{
+    font-size: 2vw;
+  }
+
+  .interview{
+    padding-top: 2rem;
+    line-height: 2rem;
+    width: 50vw;
+
+  }
+
+  h6{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    font-weight: 400;
+  }
+
+  h7{
+    font-weight: 300;
+  }
+
+  h8{
+    top: 35rem;
+  }
+
+  h9{
+    font-size: 3rem;
+    top: 45rem;
+  }
+
+  h10{
+    top: 55Rem;
+  }
+
+  h11{
+    top: 61rem;
+  }
+
+  h12{
+    top: 70rem;
+    font-size: 3rem;
+  }
+
+  form{
+    font-size: 1.5vw;
+  }
+
+
+
+
+
+
+
+}
